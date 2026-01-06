@@ -192,4 +192,11 @@ video{
   opacity: 1;
   transform: translateY(0);
 }
+/* ===== HERO FIX (NO SCROLL EFFECT) ===== */
+.hero,
+.hero *{
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
+}
 
